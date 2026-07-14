@@ -17,10 +17,11 @@ Predicting the estimated time of arrival (ETA) for food deliveries using histori
 3. **Outlier Detection:** Filtered out erroneous data points with >100km distances caused by hemisphere coordinate recording errors.
 4. **Data Leakage Prevention:** Applied `StandardScaler` strictly *after* the train-test split to ensure test data remained entirely unseen.
 5. **Model Evaluation:** 
-   * **Linear Regression (Baseline):** $R^2$: 0.56 | RMSE: 6.22 mins
-   * **XGBoost Regressor:** $R^2$: 0.82 | RMSE: 3.98 mins *(Massive 26% absolute improvement over baseline)*
+   * **Linear Regression (Baseline):** $R^2$: 0.568 | RMSE: 6.22 mins
+   * **Random Forest Regressor:** $R^2$: 0.816 | RMSE: 4.05 mins
+   * **XGBoost Regressor:** $R^2$: 0.822 | RMSE: 3.98 mins *(Best performing model)*
 
 ## 💡 How to View
-Simply open the `.ipynb` file in this repository to view the full Exploratory Data Analysis (EDA) and model training pipeline. 
+Simply open the `.ipynb` file in this repository to view the full Exploratory Data Analysis (EDA) and model training pipeline.
 
 Or if you simply want to open in Colab use [this](https://colab.research.google.com/drive/1mqa84ZffiKZtZ0IHNP_5UfTdfmtVhEzs?usp=sharing) link.
