@@ -22,4 +22,5 @@ Predicting the estimated time of arrival (ETA) for food deliveries using histori
 
 ## 💡 How to View
 Simply open the `.ipynb` file in this repository to view the full Exploratory Data Analysis (EDA) and model training pipeline. 
-To open in Colab use [this](https://colab.research.google.com/drive/1mqa84ZffiKZtZ0IHNP_5UfTdfmtVhEzs?usp=sharing) link.
+
+Or if you simply want to open in Colab use [this](https://colab.research.google.com/drive/1mqa84ZffiKZtZ0IHNP_5UfTdfmtVhEzs?usp=sharing) link.
