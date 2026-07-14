@@ -21,4 +21,5 @@ Predicting the estimated time of arrival (ETA) for food deliveries using histori
    * **XGBoost Regressor:** $R^2$: 0.82 | RMSE: 3.98 mins *(Massive 26% absolute improvement over baseline)*
 
 ## 💡 How to View
-Simply open the `.ipynb` file in this repository to view the full Exploratory Data Analysis (EDA) and model training pipeline.
+Simply open the `.ipynb` file in this repository to view the full Exploratory Data Analysis (EDA) and model training pipeline. 
+To open in Colab use [this](https://colab.research.google.com/drive/1mqa84ZffiKZtZ0IHNP_5UfTdfmtVhEzs?usp=sharing) link.
